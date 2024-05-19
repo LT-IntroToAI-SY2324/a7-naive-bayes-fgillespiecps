@@ -313,3 +313,7 @@ if __name__ == "__main__":
     print(b.classify('rainy days are the worst'))
     print(b.classify('computer science is terrible'))
     
+    print(b.classify('I hate that we all have to leave this summer!'))
+    print(b.classify('This is the best movie I have ever seen!'))
+    print(b.classify('This movie had the worst plot. Why couldn't the writers think of anything else other than this?'))
+    print(b.classify('The acting in this movie is so cool. They did a great job with the casting!'))
