@@ -312,8 +312,21 @@ if __name__ == "__main__":
     print("\nThe following should all be negative.")
     print(b.classify('rainy days are the worst'))
     print(b.classify('computer science is terrible'))
+
+    print("\nTesting Trials")
+    print(b.classify("I'm so wxcited for the solar eclipse! It's going to he so cool!"))
+    print(b.classify('I like chicken and sauce'))
+    print(b.classify('Im excited for summer'))
+    print(b.classify('I love long walks on the beach'))
+
+    print(b.classify('The solar eclipse is going to be boring, why should we waste our time?'))
+    print(b.classify('I hate waiting in line'))
+    print(b.classify('This steak was terrible'))
+    print(b.classify('This movie is the worst movie I have ever seen'))
     
-    print(b.classify('I hate that we all have to leave this summer!'))
-    print(b.classify('This is the best movie I have ever seen!'))
-    print(b.classify('This movie had the worst plot. Why couldn't the writers think of anything else other than this?'))
-    print(b.classify('The acting in this movie is so cool. They did a great job with the casting!'))
+    print(b.classify('We've not come very far since this classic in terms of high quality cop crime dranas. Acting and dorection is perfection'))
+    print(b.classify('The screenplay and direvtion are second-to-none. The performance by the ensemble cast are also superb. Kim Basinger stands out the most with her Oscar-winning role.'))
+    
+    print(b.classify('Suddenly without warning, the story switches to the favorite action movie plot used by every other Hollywood hack THE BIG CHEESE VILLIAN'))
+    print(b.classify('However this mediocre film is nowhere to be found on my own personal TOp 250 list as it offers me nothing really new for the genre or any thought-provoking ideas'))
+    
